@@ -3,41 +3,28 @@
     height: 400px;
     background: #1f2937;
   }
-.header .mid {
-    padding-top:20px;
-    height: 50px;
-    
-    color:#e5e7eb;
-    font-size: 18px;
-    flex:none;
-    font-family: arial;
-    padding-right: 20px;
-}
-.header .third {
-    padding-top:20px;
-    height: 50px;
-    
-    color:#e5e7eb;
-    font-size: 18px;
-    flex:none;
-    padding-right: 50px;
-    font-family: arial;
-}
-.header .one {
-    padding-top:20px;
-    padding-left: 500px;
-    padding-right: 20px;
-    height: 50px;
-    color:#e5e7eb;
-    font-size: 18px;
-    flex:none;
-    font-family: arial;
-}
-
-.header h1 {
+  .header-container h1 {
+    display: inline-flex;
     padding-left: 200px;
     color:#f9faf8;
     font-size:24px;
     font-family: arial;
+    
+}
+.link-container  {
+
+    display: inline-flex;
+    width:900px;
+    height: 50px;
+    justify-content: end;
+    gap:1em;
+    padding-top:18px;
+    
+}
+.link-container a {
+    font-family: arial;
+    color:#e5e7eb;
+    font-size: 18px;
+    
     
 }
